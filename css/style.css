@@ -10,6 +10,7 @@
 
 h1 {
     font-size: 3rem;
+    background: none;
 }
 
 h2 {
@@ -23,13 +24,29 @@ header > img {
     margin-left: auto;
     margin-right: auto;
 }
+
+.heading1 {
+  background-image: url(https://jewelry.ge/assets/%E1%83%A5%E1%83%90%E1%83%95%E1%83%94%E1%83%A0%E1%83%94%E1%83%91%E1%83%98/%E1%83%96%E1%83%9D%E1%83%9B%E1%83%90%E1%83%A8%E1%83%94%E1%83%AA%E1%83%95%E1%83%9A%E1%83%98%E1%83%9A%E1%83%98/1_1_1.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 400px;
+}
+
+nav a {
+    text-decoration: none;
+}
+
 nav ul {
     list-style: none;
     text-align: center;
+    
 }
 
 nav li {
     display: inline-block;
+    font-size: x-large;
+    
 }
 section {
     display: flex;
